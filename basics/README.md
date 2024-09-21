@@ -1,2 +1,2 @@
-doesnt have to be bin/bash
+doesnt have to be binbash
 eger
