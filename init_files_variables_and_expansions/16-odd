@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne 'print if($.%2)'
+grep -n '^' | LC_ALL=C grep -Po '^\d*[13579]:\K.*'
