@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 
-n="1"
-until [ $n < 10 ]
+# this script uses a until loop to print 
+i=0
+until [ $i == 10 ]
 do
-    echo "Best School"
-    n=$((n+1))
+    echo "Best School";
+    i=$((i+1))
 done
